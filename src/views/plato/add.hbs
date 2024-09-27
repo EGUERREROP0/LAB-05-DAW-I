@@ -1,0 +1,57 @@
+<div class="container p-4" style="margin-top:70px ;">
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3 class="text-uppercase">CREAR CATEGORIA</h3>
+                </div>
+
+                <div class="card-body">
+                    <form action="/add-plato" method="post">
+                        <div class="input-group mt-2">
+                            <label for="name" class="input-group-text">Nombre</label>
+                            <input class="form-control" type="text" name="namcat" id="namcat" placeholder="Categoria"
+                                autofocus>
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="description" class="input-group-text">Descripcion</label>
+                            <input class="form-control" type="text" name="desccat" id="desccat"
+                                placeholder="Descripcion">
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="stock" class="input-group-text">Stock</label>
+                            <input class="form-control" type="text" name="estock" id="stock" placeholder="Stock">
+                        </div>
+
+                        <div class="input-group mt-2">
+                            <label for="precio" class="input-group-text">Precio</label>
+                            <input class="form-control" type="number" name="precio" id="precio" placeholder="Precio">
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="state" class="input-group-text">Estado</label>
+                            <input class="form-control" type="text" name="estadocat" id="estadocat"
+                                placeholder="Estado">
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="img" class="input-group-text">Img</label>
+                            <input class="form-control" type="file" accept="image/png,image/jpeg">
+                        </div>
+
+                        <div class="input-group mt-2">
+                            <label for="categoria" class="input-group-text">Categoria</label>
+                            <input class="form-control" type="text" name="categoria" id="categoria">
+                        </div>
+
+
+                        <div class="form-group mt-4 d-grid gap-2">
+                            <button class="btn btn-success"> Guardar</button>
+                            <button class="btn btn-danger"><a class="nav-link  link-light" aria-current="page"
+                                    href="/list-plato"> Cancelar</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

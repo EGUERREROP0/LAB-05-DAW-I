@@ -1,0 +1,32 @@
+<div class="container p-4" style="margin-top:70px ;"></div>
+
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3 class="text-uppercase">EDITAR CATEGORIA</h3>
+            </div>
+
+            <div class="card-body">
+                <form action="/edit-categoria" method="post">
+                    <div class="input-group mt-2">
+                        <label for="description" class="input-group-text">Codigo</label>
+                        <input class="form-control" type="text" name="desccat" id="desccat" placeholder="codigo">
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="stock" class="input-group-text">Nombre</label>
+                        <input class="form-control" type="text" name="estock" id="stock" placeholder="Nombre">
+                    </div>
+
+                    <div class="form-group mt-4 d-grid gap-2">
+                        <button class="btn btn-success"> Guardar</button>
+                        <button class="btn btn-danger"><a class="nav-link  link-light" aria-current="page"
+                                href="/list-categoria">
+                                Cancelar</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
